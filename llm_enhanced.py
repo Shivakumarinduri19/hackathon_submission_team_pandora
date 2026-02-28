@@ -6,7 +6,7 @@ import json
 import google.generativeai as genai
 
 # Configure Google Gemini
-genai.configure(api_key="AIzaSyC41bKOSH6T8y1DAW1GcufBEz-iLdyM-lA")
+genai.configure(api_key="")
 model = genai.GenerativeModel('gemini-2.5-flash')
 
 def analyze_weak_topics(profile_data: dict, test_result_text: str) -> list:
