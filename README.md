@@ -8,7 +8,7 @@
 
 <br /><br />
 
-# 🎓 Exam Coach AI
+# Exam Coach AI
 
 ### *The smart study companion that turns mock test data into exam success*
 
@@ -16,19 +16,19 @@
 
 <br />
 
-[🚀 Quick Start](#-quick-start) · [🧠 How It Works](#-how-it-works) · [✨ Features](#-key-features) · [🛠️ Tech Stack](#️-tech-stack) · [🌍 Impact](#-real-world-impact)
+[ Quick Start](#-quick-start) · [ How It Works](#-how-it-works) · [Features](#-key-features) · [Tech Stack](#️-tech-stack) · [Impact](#-real-world-impact)
 
 </div>
 
 ---
 
-## 🚨 The Problem
+##  The Problem
 
 **Students preparing for competitive entrance exams lack personalized guidance** — generic study plans ignore individual weak areas, target scores, and available study hours, leading to inefficient preparation and missed exam goals.
 
 ### Pain Points We Solve
 
-| ❌ Before Exam Coach AI | ✅ After Exam Coach AI |
+|  Before Exam Coach AI |  After Exam Coach AI |
 |---|---|
 | Manually reviewing mock tests to spot mistakes | AI identifies weak topics in seconds |
 | One-size-fits-all study plans | Personalized 7-day plan based on your hours & target |
@@ -39,30 +39,30 @@
 
 ---
 
-## 💡 Our Solution
+## Our Solution
 
 **Exam Coach AI** is a full-stack, AI-powered study companion that:
 
-1. 📊 **Analyzes** mock test results and pinpoints weak topics using Gemini AI
-2. 📅 **Generates** a personalized 7-day revision timetable calibrated to study hours and target rank
-3. 🗂️ **Cross-analyzes** multiple test sheets to detect recurring error patterns
-4. 📚 **Recommends** free learning resources for every weak topic
-5. 💬 **Answers** subject questions via an AI-powered chatbot tutor
-6. 👥 **Connects** students through an open peer discussion forum with AI reply support
-7. 🔔 **Reminds** students via WhatsApp — daily tasks, plan alerts, discussion replies
-8. 📈 **Tracks** progress on a live dashboard with scores and topic completion
+1.  **Analyzes** mock test results and pinpoints weak topics using Gemini AI
+2.  **Generates** a personalized 7-day revision timetable calibrated to study hours and target rank
+3.  **Cross-analyzes** multiple test sheets to detect recurring error patterns
+4.  **Recommends** free learning resources for every weak topic
+5.  **Answers** subject questions via an AI-powered chatbot tutor
+6.  **Connects** students through an open peer discussion forum with AI reply support
+7.  **Reminds** students via WhatsApp — daily tasks, plan alerts, discussion replies
+8.  **Tracks** progress on a live dashboard with scores and topic completion
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 🔍 Mock Test Analysis
+###  Mock Test Analysis
 Paste or upload test results. Gemini AI extracts weak topics instantly and recommends targeted resources with one click.
 
-### 📅 7-Day Personalized Revision Plan
+###  7-Day Personalized Revision Plan
 Enter your weekday and weekend study hours. The AI generates a day-by-day timetable that prioritizes your weakest topics and perfectly fits your schedule.
 
-### 🗂️ Multi-Sheet Error Pattern Analysis ⭐ *Unique*
+###  Multi-Sheet Error Pattern Analysis  *Unique*
 Upload **multiple mock tests at once**. The AI reads all of them together and identifies **recurring error patterns** — categorized into:
 - 🧠 **Conceptual** — gaps in understanding
 - 🔢 **Calculation** — arithmetic and formula errors
@@ -71,13 +71,13 @@ Upload **multiple mock tests at once**. The AI reads all of them together and id
 
 Each pattern shows severity (🔴High / 🟠Medium / 🟢Low), frequency count, what you're doing wrong, and exactly how to fix it. Exportable as CSV.
 
-### 📚 Smart Resource Recommendations
+###  Smart Resource Recommendations
 For every weak topic the system fetches free resources grouped by type — videos, articles, PDFs, problem sets, and practice tests — with direct links.
 
-### 💬 AI Chatbot Tutor
+###  AI Chatbot Tutor
 Ask any exam-related question. The AI responds with exam-specific context, formulas, worked examples, common mistakes, and time-saving tips.
 
-### 👥 Open Discussion Forum ⭐ *Unique*
+###  Open Discussion Forum  *Unique*
 A peer-to-peer discussion board where students can:
 - Post questions tagged by topic and exam
 - Reply to each other's doubts
@@ -85,15 +85,15 @@ A peer-to-peer discussion board where students can:
 - Upvote helpful replies and mark questions as resolved
 - Receive WhatsApp notifications when someone replies
 
-### 🔔 WhatsApp Reminders ⭐ *No API Key Required*
+###  WhatsApp Reminders  *No API Key Required*
 Get daily study task reminders, plan-ready alerts, and discussion reply notifications directly on WhatsApp — using your existing WhatsApp Web session. Completely free, zero signup.
 
-### 📈 Progress Dashboard
+###  Progress Dashboard
 Track topic-wise completion, study hours logged, performance scores, and recent AI Q&A history — all in one clean view.
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ```
 Student submits mock test results
@@ -124,7 +124,7 @@ Cross-Sheet Error Pattern Analysis
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology | Purpose |
 |---|---|---|
@@ -140,7 +140,7 @@ Cross-Sheet Error Pattern Analysis
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 exam-coach-ai/
@@ -184,11 +184,11 @@ StudentProfile (1)
 FreeResource                   → learning resources per topic/exam
 ```
 
-> ✅ All 12 tables are **auto-created** on first backend startup — no migrations, no manual setup.
+>  All 12 tables are **auto-created** on first backend startup — no migrations, no manual setup.
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.9+
@@ -243,19 +243,19 @@ API Docs:  http://127.0.0.1:8000/docs
 
 | Page | Description |
 |---|---|
-| 🏠 **Home** | Overview and quick navigation |
-| 📊 **Analyze** | Paste test results → get weak topics + resources |
-| 📅 **7-Day Plan** | Generate personalized revision timetable |
-| 📚 **Resources** | Browse free materials by topic |
-| 📈 **Dashboard** | Track progress, scores, study hours |
-| 💬 **Ask AI** | Chat with AI tutor on any topic |
-| 🗂️ **Multi-Sheet** | Upload multiple tests → error pattern analysis |
-| 🔔 **Reminders** | Set up WhatsApp study notifications |
-| 👥 **Discussions** | Peer forum with AI reply support |
+|  **Home** | Overview and quick navigation |
+|  **Analyze** | Paste test results → get weak topics + resources |
+|  **7-Day Plan** | Generate personalized revision timetable |
+|  **Resources** | Browse free materials by topic |
+|  **Dashboard** | Track progress, scores, study hours |
+|  **Ask AI** | Chat with AI tutor on any topic |
+|  **Multi-Sheet** | Upload multiple tests → error pattern analysis |
+|  **Reminders** | Set up WhatsApp study notifications |
+|  **Discussions** | Peer forum with AI reply support |
 
 ---
 
-## 🌍 Real-World Impact
+##  Real-World Impact
 
 ### Who benefits?
 - Students preparing for **JEE, NEET, GATE, CAT, GRE, UPSC**, and any competitive exam
@@ -270,7 +270,7 @@ API Docs:  http://127.0.0.1:8000/docs
 
 ---
 
-## 🔮 Roadmap
+##  Roadmap
 
 - [ ] Adaptive spaced repetition scheduling (Anki/SM-2 algorithm)
 - [ ] PDF and image upload for handwritten answer sheets (OCR)
@@ -283,29 +283,13 @@ API Docs:  http://127.0.0.1:8000/docs
 
 ---
 
-## 🤝 Contributing
 
-Contributions are welcome!
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature`
-3. Commit your changes: `git commit -m 'Add your feature'`
-4. Push to branch: `git push origin feature/your-feature`
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
-
----
 
 <div align="center">
 
 ### 💬 *"Stop studying harder. Start studying smarter."*
 
-⭐ **Star this repo if it helped you!** ⭐
+ **Star this repo if it helped you!** 
 
 <br />
 
