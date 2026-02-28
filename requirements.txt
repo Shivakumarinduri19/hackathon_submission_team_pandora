@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+python-dotenv
+streamlit
+requests
+pandas
+google-generativeai
+pywhatkit
+python-multipart
