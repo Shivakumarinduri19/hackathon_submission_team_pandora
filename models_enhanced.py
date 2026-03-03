@@ -2,6 +2,7 @@ from sqlalchemy import Column, Integer, String, Float, Text, ForeignKey, DateTim
 from sqlalchemy.orm import relationship
 from datetime import datetime
 from database import Base
+# llms to wordk
 
 class StudentProfile(Base):
     __tablename__ = "student_profiles"
