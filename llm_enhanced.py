@@ -261,7 +261,7 @@ Format your response exactly as:
 
 ## Practice Problems
 - Resource name + description
-
+# api key 
 ## Study Tips
 - Tip 1
 - Tip 2
