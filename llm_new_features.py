@@ -81,6 +81,7 @@ Provide 5-8 patterns max."""
 def generate_ai_discussion_reply(profile_data: dict, post_title: str, post_content: str, exam_tag: str) -> str:
     """
     Generate an AI reply for a student's discussion post.
+    generate reply from aoi
     """
     exam_type = exam_tag or profile_data.get("exam_type", "competitive exam")
 
